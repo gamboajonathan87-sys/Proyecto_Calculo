@@ -5,6 +5,7 @@ import numpy as np
 import sympy as sp
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "Cálculo I — Proyecto Final"
 
 AZUL = "#1e3a5f"
